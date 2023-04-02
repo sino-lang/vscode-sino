@@ -21,8 +21,8 @@ Provides [Sino language](https://sino-lang.org) support for Visual Studio Code.
 
 ## Usage
 
-First you will need to install [Visual Studio Code][vs-code] >= `1.40`.
-In the command palette (`Cmd+Shift+P`) select `Install Extensions` and choose `V`.
+First you will need to install [Visual Studio Code][vs-code] >= `1.76`.
+In the command palette (`Cmd+Shift+P`) select `Install Extensions` and choose `Sino`.
 Alternatively you can install the extension from the [Marketplace][market-ext-link].
 Now open any `.sn`, `.sns` file in VS Code.
 

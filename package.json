@@ -4,10 +4,10 @@
   "description": "Sino language support (syntax highlighting, formatter, snippets) for Visual Studio Code.",
   "publisher": "sino",
   "icon": "icons/icon.png",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "engines": {
-    "vscode": "^1.77.0"
+    "vscode": "^1.76.0"
   },
   "categories": [
     "Programming Languages"
