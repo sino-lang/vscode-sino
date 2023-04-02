@@ -1,0 +1,43 @@
+{
+  "name": "sino",
+  "displayName": "Sino",
+  "description": "Sino language support (syntax highlighting, formatter, snippets) for Visual Studio Code.",
+  "publisher": "sino",
+  "icon": "icons/icon.png",
+  "version": "0.0.1",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "bugs": {
+		"url": "https://github.com/sino-lang/vscode-sino/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sino-lang/vscode-sino"
+	},
+  "keywords": [
+		"Sino",
+		"sino",
+		"sino language",
+		"sino-lang",
+		"extension",
+		"autocompletion"
+	],
+  "contributes": {
+    "languages": [{
+      "id": "sino",
+      "aliases": ["Sino", "sino"],
+      "extensions": [".sn"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "sino",
+      "scopeName": "source.sino",
+      "path": "./syntaxes/sino.tmLanguage.json"
+    }]
+  }
+}
